@@ -1,13 +1,16 @@
+{# layout.base.html.twig #}
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<html lang="en">
+<head>
+{% block head %}
+  {% block metainfo %}{% endblock %}
+  {% block stylesheets %}{% endblock %}
+  {% block javascripts %}{% endblock %}
+  <title>{% block title %}Euterpe Estudio{% endblock %}</title>
+</head>
+{% endblock %}
+<body>
+	{% block body %}
+	{% endblock %}
+</body>
 </html>
