@@ -2,6 +2,6 @@ principal:
     resource: "@principalBundle/Resources/config/routing.yml"
     prefix:   /
 
-hello:
-    path:     /hello/{name}
-    defaults: { _controller: principalBundle:Hello:index }
+quienes_somos:
+    path:     /principal
+    defaults: { _controller: principalBundle:Estudio:quienessomos }
