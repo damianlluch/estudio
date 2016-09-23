@@ -42,3 +42,7 @@ a2c979,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,14746473
 8a7781,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,1474647384,,500
 3851c0,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,1474647434,,200
 8b2bbd,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,1474647552,,200
+969da8,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,1474647743,dbe0d0,200
+dbe0d0,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,1474647743,,500
+b8741b,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,1474647845,,200
+198828,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/principal,1474647858,,200
