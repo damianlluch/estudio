@@ -1,6 +1,6 @@
-principal:
-    resource: "@principalBundle/Resources/config/routing.yml"
-    prefix:   /
+principal_homepage:
+    path:     /
+    defaults: { _controller: principalBundle:Default:index }
 
 quienes_somos:
     path:     /principal
