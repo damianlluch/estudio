@@ -764,7 +764,7 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['doctrine_cache.providers.doctrine.orm.default_metadata_cache'] = $instance = new \Doctrine\Common\Cache\ArrayCache();
 
-        $instance->setNamespace('sf2orm_default_3095ad44482b0b14fd2641e9bcf228d07a8246addca0a5d986959b84c20b4e99');
+        $instance->setNamespace('sf2orm_default_6d2b9ee76f10e6fecfeb240dcf2a97bd5610f016c9c07624823c0928593c01de');
 
         return $instance;
     }
@@ -781,7 +781,7 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['doctrine_cache.providers.doctrine.orm.default_query_cache'] = $instance = new \Doctrine\Common\Cache\ArrayCache();
 
-        $instance->setNamespace('sf2orm_default_3095ad44482b0b14fd2641e9bcf228d07a8246addca0a5d986959b84c20b4e99');
+        $instance->setNamespace('sf2orm_default_6d2b9ee76f10e6fecfeb240dcf2a97bd5610f016c9c07624823c0928593c01de');
 
         return $instance;
     }
@@ -798,7 +798,7 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['doctrine_cache.providers.doctrine.orm.default_result_cache'] = $instance = new \Doctrine\Common\Cache\ArrayCache();
 
-        $instance->setNamespace('sf2orm_default_3095ad44482b0b14fd2641e9bcf228d07a8246addca0a5d986959b84c20b4e99');
+        $instance->setNamespace('sf2orm_default_6d2b9ee76f10e6fecfeb240dcf2a97bd5610f016c9c07624823c0928593c01de');
 
         return $instance;
     }
@@ -3185,7 +3185,6 @@ class appDevDebugProjectContainer extends Container
         $instance->addPath(($this->targetDirs[3].'/src/Acme/DemoBundle/Resources/views'), 'AcmeDemo');
         $instance->addPath(($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views'), 'WebProfiler');
         $instance->addPath(($this->targetDirs[3].'/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views'), 'SensioDistribution');
-        $instance->addPath(($this->targetDirs[2].'/Resources/views'));
         $instance->addPath(($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form'));
 
         return $instance;

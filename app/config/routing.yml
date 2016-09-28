@@ -5,3 +5,6 @@ principal_homepage:
 quienes_somos:
     path:     /principal
     defaults: { _controller: principalBundle:Estudio:quienessomos }
+index:
+    path:     /index
+    defaults: { _controller: principalBundle:Estudio:index}
