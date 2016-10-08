@@ -1,7 +1,12 @@
 principal_homepage:
     path:     /
-    defaults: { _controller: principalBundle:Default:index }
+    defaults: { _controller: principalBundle:Estudio:quienessomos }
 
 quienes_somos:
     path:     /principal
     defaults: { _controller: principalBundle:Estudio:quienessomos }
+
+
+    # principal_homepage:
+      #  path:     /
+      #  defaults: { _controller: principalBundle:Default:index }

@@ -128,7 +128,7 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return $this->redirect($pathinfo.'/', 'principal_homepage');
             }
 
-            return array (  '_controller' => 'principalBundle\\Controller\\DefaultController::indexAction',  '_route' => 'principal_homepage',);
+            return array (  '_controller' => 'principalBundle\\Controller\\EstudioController::quienessomosAction',  '_route' => 'principal_homepage',);
         }
 
         // quienes_somos
