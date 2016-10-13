@@ -1,10 +1,10 @@
 principal_homepage:
     path:     /
-    defaults: { _controller: principalBundle:Estudio:quienessomos }
+    defaults: { _controller: principalBundle:Estudio:principal }
 
-quienes_somos:
-    path:     /principal
-    defaults: { _controller: principalBundle:Estudio:quienessomos }
+#quienes_somos:
+#    path:     /principal
+#    defaults: { _controller: principalBundle:Estudio:quienessomos }
 
 
     # principal_homepage:
