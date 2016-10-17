@@ -93,3 +93,14 @@ b9c132,127.0.0.1,POST,http://localhost/estudio/web/app_dev.php/mail/contact_me.p
 99be77,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476459365,,200
 1a3b8a,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/mail/contact_me.php,1476459381,6c47b1,200
 6c47b1,127.0.0.1,POST,http://localhost/estudio/web/app_dev.php/mail/contact_me.php,1476459381,,404
+599645,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476730791,,200
+b5ae4b,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476730797,,200
+dad071,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/principal,1476734008,9381bb,200
+9381bb,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/principal,1476734008,,404
+65abe3,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476734013,,200
+57a408,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476734053,,200
+525d46,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476734091,,200
+b961d2,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476734190,,200
+2ff835,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476734216,,200
+be6ec6,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476734239,,200
+61eef2,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476735027,,200
