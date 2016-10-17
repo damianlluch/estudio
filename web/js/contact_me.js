@@ -21,7 +21,7 @@ $(function() {
                 nombrecheck = nombre.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "sendbymail.php",
+                url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
                     nombre: nombre,
