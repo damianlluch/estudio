@@ -107,3 +107,8 @@ be6ec6,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476734239,,200
 281f40,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476796285,,200
 abf43b,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/mail/contact_me.php,1476796304,c6767c,200
 c6767c,127.0.0.1,POST,http://localhost/estudio/web/app_dev.php/mail/contact_me.php,1476796304,,404
+6effeb,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/principal,1476798162,0677ac,200
+0677ac,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/principal,1476798162,,404
+502357,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/,1476798168,,200
+9e1bd1,127.0.0.1,GET,http://localhost/estudio/web/app_dev.php/mail/contact_me.php,1476798184,cc98fa,200
+cc98fa,127.0.0.1,POST,http://localhost/estudio/web/app_dev.php/mail/contact_me.php,1476798184,,404
