@@ -3,7 +3,7 @@ if(isset($_POST['email'])) {
 
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "anibaltallarico@gmail.com";
+$email_to = "damianclluch@gmail.com";
 $email_subject = "Contacto desde el sitio web";
 
 // Aquí se deberían validar los datos ingresados por el usuario
@@ -29,11 +29,11 @@ $email_message .= "Comentarios: " . $_POST['mensaje'] . "\n\n";
 //'Reply-To: '.$email_from."\r\n" .
 //'X-Mailer: PHP/' . phpversion();
 //mail($email_to, $email_subject, $email_message, $headers);
-$to = "anibaltallarico@gmail.com";
+$to = "damianclluch@gmail.com";
 $subject = "Correo en prueba";
 $txt = "Hola es un placer saludar desde el correo en pruebas!";
 $headers = "From: anibaltallarico@gmail.com.com" . "\r\n" .
-"CC: anibaltallarico@gmail.com";
+"CC: damianclluch@gmail.com";
 mail($to,$subject,$txt,$headers);
 echo "¡El formulario se ha enviado con éxito!";
 }
