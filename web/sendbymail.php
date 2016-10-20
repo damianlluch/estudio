@@ -97,8 +97,6 @@ if(isset($_POST['email'])) {
 
     $email_message .= "Nombre: ".clean_string($first_name)."\n";
 
-    $email_message .= "Apellido: ".clean_string($last_name)."\n";
-
     $email_message .= "Email: ".clean_string($email_from)."\n";
 
     $email_message .= "Teléfono: ".clean_string($telephone)."\n";
@@ -115,6 +113,7 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 
 @mail($email_to, $email_subject, $email_message, $headers);
+return true;
 
 ?>
 
